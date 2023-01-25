@@ -8,5 +8,6 @@ import java.io.Serializable;
 public class OwnerBean implements Serializable {
     private String username;
 
+    private String username_original;
 
 }

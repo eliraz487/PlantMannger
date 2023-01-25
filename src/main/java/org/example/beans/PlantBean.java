@@ -7,7 +7,7 @@ import java.io.Serializable;
 @Data
 public class PlantBean implements Serializable {
 
-    private PlantTypeBean plantTypeBean;
+    private PlantTypeBean plant_type_bean;
 
-    private String catalognumber;
+    private PlantTypeBean plant_type_bean_original;
 }

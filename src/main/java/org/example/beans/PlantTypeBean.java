@@ -8,6 +8,9 @@ import java.io.Serializable;
 public class PlantTypeBean implements Serializable {
 
     private String name;
+    private WateringRequirementBean watering_requirement;
+    private String name_original;
 
-    private WateringRequirementBean wateringRequirement;
+
+    private WateringRequirementBean watering_requirement_original;
 }

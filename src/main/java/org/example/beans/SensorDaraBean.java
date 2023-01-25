@@ -4,6 +4,8 @@ import lombok.Data;
 
 @Data
 public class SensorDaraBean {
-    private String Type;
+    private String type;
     private double value;
+    private String type_original;
+    private double value_original;
 }

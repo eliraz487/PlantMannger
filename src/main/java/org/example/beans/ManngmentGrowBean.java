@@ -6,10 +6,19 @@ import java.io.Serializable;
 import java.util.ArrayList;
 @Data
 public class ManngmentGrowBean implements Serializable {
-    protected OwnerBean OwnerBean;
+
+
+    private OwnerBean owner_bean;
 
     private ArrayList<PlantGroupBean> plant_group_list;
 
-    private ArrayList<PlantSensorBean> SensorList;
+    private ArrayList<PlantSensorBean> sensor_list;
+
+    private OwnerBean owner_bean_original;
+
+    private ArrayList<PlantGroupBean> plant_group_list_original;
+
+    private ArrayList<PlantSensorBean> sensor_list_original;
+    
 
 }
