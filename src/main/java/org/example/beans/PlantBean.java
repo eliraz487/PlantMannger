@@ -1,8 +1,13 @@
 package org.example.beans;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
-public class Plant implements Serializable {
+@Data
+public class PlantBean implements Serializable {
 
-    private PlantType plantType;
+    private PlantTypeBean plantTypeBean;
+
+    private String catalognumber;
 }
