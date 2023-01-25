@@ -1,15 +1,15 @@
 package org.example.beans;
 
+import lombok.Data;
+
 import java.io.Serializable;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 @Data
-public class ManngmentGrow implements Serializable {
-    private Owner Owner;
+public class ManngmentGrowBean implements Serializable {
+    private OwnerBean OwnerBean;
 
-    private ArrayList<PlantGroup> plant_group_list;
+    private ArrayList<PlantGroupBean> plant_group_list;
 
-
-
+    private ArrayList<PlantSensorBean> SensorList;
 
 }

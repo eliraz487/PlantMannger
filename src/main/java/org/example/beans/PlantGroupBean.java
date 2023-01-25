@@ -1,9 +1,14 @@
 package org.example.beans;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class PlantGroup implements Serializable {
+@Data
+public class PlantGroupBean implements Serializable {
 
-    private ArrayList<Plant> plantsList;
+    private ArrayList<PlantBean> plantsList;
+
+    private String catalognumber;
 }
